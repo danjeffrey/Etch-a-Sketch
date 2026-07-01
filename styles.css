@@ -1,0 +1,15 @@
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;        /* or any width you want */
+}
+
+.grid div {
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.cell.highlight {
+    background-color: #ff0000;
+}
